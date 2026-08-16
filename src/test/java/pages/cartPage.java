@@ -2,11 +2,9 @@ package pages;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
-import stepDefinitions.cartStep;
 import utility.ReusableMethods;
 
 public class cartPage {
@@ -16,19 +14,19 @@ public class cartPage {
         this.driver = driver;
     }
 
-    private static final Logger logger = LogManager.getLogger(cartStep.class);
+    private static final Logger logger = LogManager.getLogger(cartPage.class);
 
-    private By AddToCart_Btn = (By.id("btn-add-to-cart"));
-    private By alert = By.xpath("//div[@role='alert']");
-    private By viewCart = By.id("lblCartCount");
-    private By productInCart = By.xpath("(//div[@class='ng-star-inserted'])[1]");
-    private By removeCart = By.xpath("(//fa-icon[@class='ng-fa-icon'])[2]");
-    private By IncreaseQuantity = By.xpath("(//fa-icon[@class='ng-fa-icon'])[3]");
-    private By DecreaseQuantity = By.xpath("(//fa-icon[@class='ng-fa-icon'])[2]");
-    private By ChangeQuantityFromCart = By.cssSelector("input[type='number']");
+    private final By AddToCart_Btn = (By.id("btn-add-to-cart"));
+    private final By alert = By.xpath("//div[@role='alert']");
+    private final By viewCart = By.id("lblCartCount");
+    private final By productInCart = By.xpath("(//div[@class='ng-star-inserted'])[1]");
+    private final By removeCart = By.xpath("(//fa-icon[@class='ng-fa-icon'])[2]");
+    private final By IncreaseQuantity = By.xpath("(//fa-icon[@class='ng-fa-icon'])[3]");
+    private final By DecreaseQuantity = By.xpath("(//fa-icon[@class='ng-fa-icon'])[2]");
+    private final By ChangeQuantityFromCart = By.cssSelector("input[type='number']");
 
     public void clickOn_Add_To_cart_btn() {
-        //driver.findElement(AddToCart_Btn).click();
+        driver.findElement(AddToCart_Btn).click();
         logger.info("user click on add to cart button");
     }
 
