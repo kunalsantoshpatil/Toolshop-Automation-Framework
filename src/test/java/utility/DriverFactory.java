@@ -11,6 +11,7 @@ public class DriverFactory {
 
     public static void initializeDriver() throws InterruptedException {
         ChromeOptions option=new ChromeOptions();
+        option.addArguments(ConfigReader.getProperty("headless"));
         option.addArguments("--disable-popup-blocking");
         option.addArguments("disable-notification");
         String browser = ConfigReader.getProperty("browser");
