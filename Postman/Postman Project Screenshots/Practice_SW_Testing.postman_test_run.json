@@ -1,0 +1,563 @@
+{
+	"id": "049f4821-074e-4be1-ad7a-8b59f76e8ddc",
+	"name": "Practice_SW_Testing",
+	"timestamp": "2026-08-17T14:40:32.423Z",
+	"collection_id": "32584047-b8dbbb66-7213-4300-83a6-2724055131ad",
+	"folder_id": 0,
+	"environment_id": "32584047-1e5ddc73-98e4-491b-87f5-819e2db9666d",
+	"totalPass": 13,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2026-08-17T14:40:20.466Z",
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "32296910-7ac1-4d9f-96af-b71b17b8da1a",
+			"name": "register Copy",
+			"url": "https://api.practicesoftwaretesting.com/users/register",
+			"time": 678,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				678
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "cae480cb-124f-4b2b-b284-71f9a529e5ab",
+			"name": "login Copy",
+			"url": "https://api.practicesoftwaretesting.com/users/login",
+			"time": 476,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				476
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e146a5f5-15f1-400e-ac0f-5fbfd387d1a6",
+			"name": "getUser Copy",
+			"url": "https://api.practicesoftwaretesting.com/users/01m082n8cm6973v0xh1bxwxs69",
+			"time": 404,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				404
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "6be4767d-3aa0-4152-8e71-37653cb3582a",
+			"name": "Retrieve all products",
+			"url": "https://api.practicesoftwaretesting.com/products",
+			"time": 436,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				436
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "35326065-fef4-4ee3-8fa9-ff619b9dfe17",
+			"name": "Get category",
+			"url": "https://api.practicesoftwaretesting.com/categories",
+			"time": 388,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				388
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9f85338d-78ae-4455-aa05-6a5bd5fda0e3",
+			"name": "Get brands",
+			"url": "https://api.practicesoftwaretesting.com/brands",
+			"time": 415,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				415
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "44524f8b-ee22-42e8-b4f9-148da8dcac99",
+			"name": "Admin Login",
+			"url": "https://api.practicesoftwaretesting.com/users/login",
+			"time": 466,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				466
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "6e076f35-f541-4872-860b-c9aee56c3aad",
+			"name": "Get image",
+			"url": "https://api.practicesoftwaretesting.com/images",
+			"time": 425,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				425
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "018dd6fa-21e4-46cc-8b9f-369f730f9a4d",
+			"name": "Store new product",
+			"url": "https://api.practicesoftwaretesting.com/products",
+			"time": 446,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				446
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "c5a4e8c0-3eec-41f0-b1ec-55d0e5b2022b",
+			"name": "Retrieve specific product",
+			"url": "https://api.practicesoftwaretesting.com/products/01m082ncad6mx09gw66fmmpth3",
+			"time": 403,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				403
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "b5919640-e2a7-4e2d-8a98-64944fdb566e",
+			"name": "Update specific product",
+			"url": "https://api.practicesoftwaretesting.com/products/01m082ncad6mx09gw66fmmpth3",
+			"time": 396,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				396
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e06db551-3fef-4dce-b3f1-09ebd6f84ede",
+			"name": "Create new cart",
+			"url": "https://api.practicesoftwaretesting.com/carts",
+			"time": 409,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				409
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "aef10c6f-049e-4ce2-9ec2-25ed23a3cd24",
+			"name": "Add product to Cart",
+			"url": "https://api.practicesoftwaretesting.com/carts/01m082ndq81fv04saqhqdsht65",
+			"time": 448,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"verify item added to cart": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"verify item added to cart": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				448
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"verify item added to cart": true
+				}
+			]
+		},
+		{
+			"id": "1972c13a-a0e8-40a7-8689-c86bd2618dc9",
+			"name": "Update quantity of product from cart",
+			"url": "https://api.practicesoftwaretesting.com/carts/01m082ndq81fv04saqhqdsht65/product/quantity",
+			"time": 402,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				402
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "9bc09ac8-4654-4162-96ee-b98fc9f54148",
+			"name": "Retrive all invoices",
+			"url": "https://api.practicesoftwaretesting.com/invoices",
+			"time": 419,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				419
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ebe2176f-17f6-45e0-bd87-901aa70a4eb4",
+			"name": "Payment",
+			"url": "https://api.practicesoftwaretesting.com/payment/check",
+			"time": 407,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				407
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "1a21ee13-bbdc-4bf5-b34d-8a89e6ac66ab",
+			"name": "Postcode_address",
+			"url": "https://api.practicesoftwaretesting.com/postcode-lookup",
+			"time": 400,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				400
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5ac3649a-a573-47d3-ab8a-861b3a8c70aa",
+			"name": "Store new invoice",
+			"url": "https://api.practicesoftwaretesting.com/invoices",
+			"time": 418,
+			"responseCode": {
+				"code": 422,
+				"name": "Unprocessable Content"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				418
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "ca344b0d-83d1-4d96-8a39-356f6ed9b730",
+			"name": "Delete User",
+			"url": "https://api.practicesoftwaretesting.com/users/%7B%7Bid%7D%7D",
+			"time": 397,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Status code is 204": false
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				397
+			],
+			"allTests": [
+				{
+					"Status code is 204": false
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8233,
+	"collection": {
+		"requests": [
+			{
+				"id": "32296910-7ac1-4d9f-96af-b71b17b8da1a",
+				"method": "POST"
+			},
+			{
+				"id": "cae480cb-124f-4b2b-b284-71f9a529e5ab",
+				"method": "POST"
+			},
+			{
+				"id": "e146a5f5-15f1-400e-ac0f-5fbfd387d1a6",
+				"method": "GET"
+			},
+			{
+				"id": "6be4767d-3aa0-4152-8e71-37653cb3582a",
+				"method": "GET"
+			},
+			{
+				"id": "35326065-fef4-4ee3-8fa9-ff619b9dfe17",
+				"method": "GET"
+			},
+			{
+				"id": "9f85338d-78ae-4455-aa05-6a5bd5fda0e3",
+				"method": "GET"
+			},
+			{
+				"id": "44524f8b-ee22-42e8-b4f9-148da8dcac99",
+				"method": "POST"
+			},
+			{
+				"id": "6e076f35-f541-4872-860b-c9aee56c3aad",
+				"method": "GET"
+			},
+			{
+				"id": "018dd6fa-21e4-46cc-8b9f-369f730f9a4d",
+				"method": "POST"
+			},
+			{
+				"id": "c5a4e8c0-3eec-41f0-b1ec-55d0e5b2022b",
+				"method": "GET"
+			},
+			{
+				"id": "b5919640-e2a7-4e2d-8a98-64944fdb566e",
+				"method": "PATCH"
+			},
+			{
+				"id": "e06db551-3fef-4dce-b3f1-09ebd6f84ede",
+				"method": "POST"
+			},
+			{
+				"id": "aef10c6f-049e-4ce2-9ec2-25ed23a3cd24",
+				"method": "POST"
+			},
+			{
+				"id": "1972c13a-a0e8-40a7-8689-c86bd2618dc9",
+				"method": "PUT"
+			},
+			{
+				"id": "9bc09ac8-4654-4162-96ee-b98fc9f54148",
+				"method": "GET"
+			},
+			{
+				"id": "ebe2176f-17f6-45e0-bd87-901aa70a4eb4",
+				"method": "POST"
+			},
+			{
+				"id": "1a21ee13-bbdc-4bf5-b34d-8a89e6ac66ab",
+				"method": "GET"
+			},
+			{
+				"id": "5ac3649a-a573-47d3-ab8a-861b3a8c70aa",
+				"method": "POST"
+			},
+			{
+				"id": "ca344b0d-83d1-4d96-8a39-356f6ed9b730",
+				"method": "DELETE"
+			}
+		]
+	}
+}
